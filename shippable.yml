@@ -30,5 +30,5 @@ build:
     image_tag: prod
     pull: true
    
-  ci:
+  ci:   
     - python --version  
