@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="All tests" hostname="mirek-notas" tests="2" failures="1" errors="0" skipped="0" time="0.011" timestamp="2014-11-04 02:43:12.187">
+  <testcase id="1" name="My test group Test 1" time="0.002">
+  </testcase>
+  <testcase id="2" name="My test group Test 2" time="0.009">
+    <failure>Expected: &lt;0&gt;
+  Actual: &lt;1&gt;
+</failure>
+    <system-err>package:unittest/src/simple_configuration.dart 122:9  SimpleConfiguration.onExpectFailure
+package:unittest/src/simple_configuration.dart 15:28  _ExpectFailureHandler.fail
+package:matcher/src/expect.dart 113:9                 DefaultFailureHandler.failMatch
+package:matcher/src/expect.dart 73:29                 expect
+test/all.dart 27:32                                   main.&lt;fn&gt;.&lt;fn&gt;
+package:unittest/src/test_case.dart 102:37            _run.&lt;fn&gt;
+dart:async/zone.dart 899                              _rootRunUnary
+dart:async/zone.dart 801                              _CustomZone.runUnary
+dart:async/future_impl.dart 496                       _Future._propagateToListeners.handleValueCallback
+dart:async/future_impl.dart 579                       _Future._propagateToListeners
+dart:async/future_impl.dart 339                       _Future._completeWithValue
+dart:async/future_impl.dart 401                       _Future._asyncComplete.&lt;fn&gt;
+dart:async/zone.dart 892                              _rootRun
+dart:async/zone.dart 793                              _CustomZone.run
+dart:async/zone.dart 701                              _CustomZone.runGuarded
+dart:async/zone.dart 726                              _CustomZone.bindCallback.&lt;fn&gt;
+dart:async/schedule_microtask.dart 41                 _asyncRunCallbackLoop
+dart:async/schedule_microtask.dart 48                 _asyncRunCallback
+dart:isolate-patch/isolate_patch.dart 84              _runPendingImmediateCallback
+dart:isolate-patch/isolate_patch.dart 244             _startIsolate
+dart:isolate-patch/isolate_patch.dart 192             _startMainIsolate.&lt;fn&gt;
+dart:isolate-patch/isolate_patch.dart 130             _RawReceivePortImpl._handleMessage
+</system-err>
+  </testcase>
+</testsuite>
