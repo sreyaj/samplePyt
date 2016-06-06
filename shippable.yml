@@ -16,6 +16,5 @@ python:
 build:
   ci:
     - python --version
-                              
   
   
