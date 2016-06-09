@@ -15,6 +15,6 @@ python:
 
 build:
   ci:
-    - python --version
+    - python --version 
   
   
